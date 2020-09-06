@@ -1,3 +1,4 @@
 DataSet : https://www.kaggle.com/c/msk-redefining-cancer-treatment/overview
 Exploratory Data Analysis and  vectorization on TEXT is used to predict the classes for the cross validation data.
 Performance Metric:multiClass-logloss
+P.S.-Further analysis of text data for class 2 and class 7 is remaining it will be added in upcoming time..
