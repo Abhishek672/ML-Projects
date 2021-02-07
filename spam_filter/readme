@@ -1,3 +1,8 @@
+NB_params stores the parameters obtained after training the Naive Bayes Model on the given training data "emails_new.csv".Prior_spam is the fraction of spam mails in the training dataset,"vectorizer_NB" is the one hot encoding of the mails,"word_ham" is the probability of each word in the vocabulary to be a ham mail."word_spam" is the probability of each word in the vocabulary to be a spam mail. 
+SVM_params stores the parameters of SVM algorithm."vectorizer_svm" stores the frequency encoding of mails, "classifier_svm" stores the trained model.
 output_nb.txt is file where the prediction made by the Naive Bayes Algorithm on the test mails in "test" folder are stored.
 output_svm.txt is file where the prediction made by the SVM Algorithm on the test mails in "test" folder are stored.
 spam_filter_n.ipynb is the jupyter notebook associated.
+"test" directory contains the test mails that needed to be checked against the naive bayes and svm model.
+precision obtained using Naive Bayes on given train data : 0.998
+precision obtained using SVM on given train data : 0.962
