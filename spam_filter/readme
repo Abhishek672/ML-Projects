@@ -1,1 +1,3 @@
-
+output_nb.txt is file where the prediction made by the Naive Bayes Algorithm on the test mails in "test" folder are stored.
+output_svm.txt is file where the prediction made by the SVM Algorithm on the test mails in "test" folder are stored.
+spam_filter_n.ipynb is the jupyter notebook associated.
