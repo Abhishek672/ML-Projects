@@ -1,3 +1,4 @@
+DATASET : http://www2.aueb.gr/users/ion/data/enron-spam/ a mixed set of mails were used from each enron directory.
 NB_params stores the parameters obtained after training the Naive Bayes Model on the given training data "emails_new.csv".Prior_spam is the fraction of spam mails in the training dataset,"vectorizer_NB" is the one hot encoding of the mails,"word_ham" is the probability of each word in the vocabulary to be a ham mail."word_spam" is the probability of each word in the vocabulary to be a spam mail. 
 SVM_params stores the parameters of SVM algorithm."vectorizer_svm" stores the frequency encoding of mails, "classifier_svm" stores the trained model.
 output_nb.txt is file where the prediction made by the Naive Bayes Algorithm on the test mails in "test" folder are stored.
